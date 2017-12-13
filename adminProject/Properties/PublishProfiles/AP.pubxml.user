@@ -1,0 +1,2374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\会员系统\6.Publish\AP</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="403.htm">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="404.htm">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="500.htm">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ajaxhandler/query.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ajaxhandler/tree_query.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/CreativityWarehouse/CreativityWarehouseHandle.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/bin/LitJSON.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/demo.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/file_manager_json.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/README.txt">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/upload_homepage_json.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/upload_json.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp.net/upload_thumbnails_json.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp/demo.asp">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp/file_manager_json.asp">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp/JSON_2.0.4.asp">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp/UpLoad_Class.asp">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/asp/upload_json.asp">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/auto-height.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/colorpicker.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/custom-plugin.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/custom-theme.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/default.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/dialog.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/dynamic-load.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/file-dialog.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/file-manager.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/filter-mode.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/image-dialog.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/index.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/index.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/jquery.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/multi-image-dialog.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/multi-language.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/newline.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/node.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/paste-type.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/qqstyle.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/readonly.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/simple.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/uploadbutton.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/url-type.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/examples/word-count.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar">
+      <publishTime>08/21/2017 10:57:46</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/jsp/lib/commons-io-1.4.jar">
+      <publishTime>08/21/2017 10:57:46</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/jsp/lib/json_simple-1.1.jar">
+      <publishTime>08/21/2017 10:57:46</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/jsp/README.txt">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/kindeditor-all-min.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/kindeditor-all.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/kindeditor-min.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/kindeditor.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/lang/ar.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/lang/en.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/lang/ko.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/lang/zh_CN.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/lang/zh_TW.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/license.txt">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/anchor/anchor.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/autoheight/autoheight.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/baidumap/baidumap.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/baidumap/index.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/baidumap/map.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/clearhtml/clearhtml.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/code/code.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/code/prettify.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/code/prettify.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/emoticons.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/0.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/1.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/10.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/100.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/101.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/102.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/103.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/104.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/105.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/106.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/107.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/108.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/109.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/11.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/110.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/111.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/112.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/113.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/114.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/115.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/116.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/117.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/118.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/119.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/12.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/120.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/121.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/122.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/123.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/124.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/125.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/126.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/127.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/128.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/129.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/13.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/130.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/131.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/132.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/133.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/134.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/14.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/15.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/16.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/17.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/18.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/19.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/2.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/20.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/21.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/22.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/23.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/24.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/25.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/26.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/27.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/28.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/29.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/3.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/30.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/31.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/32.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/33.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/34.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/35.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/36.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/37.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/38.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/39.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/4.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/40.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/41.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/42.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/43.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/44.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/45.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/46.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/47.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/48.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/49.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/5.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/50.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/51.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/52.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/53.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/54.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/55.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/56.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/57.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/58.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/59.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/6.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/60.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/61.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/62.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/63.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/64.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/65.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/66.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/67.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/68.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/69.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/7.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/70.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/71.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/72.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/73.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/74.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/75.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/76.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/77.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/78.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/79.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/8.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/80.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/81.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/82.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/83.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/84.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/85.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/86.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/87.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/88.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/89.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/9.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/90.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/91.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/92.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/93.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/94.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/95.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/96.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/97.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/98.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/99.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/emoticons/images/static.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/filemanager/filemanager.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/filemanager/images/file-16.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/filemanager/images/file-64.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/filemanager/images/folder-16.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/filemanager/images/folder-64.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/filemanager/images/go-up.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/flash/flash.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/image/image.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/image/images/align_left.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/image/images/align_right.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/image/images/align_top.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/image/images/refresh.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/insertfile/insertfile.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/lineheight/lineheight.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/link/link.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/map/map.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/map/map.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/media/media.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/multiimage/images/image.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/multiimage/images/select-files-en.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/multiimage/images/select-files-zh_CN.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/multiimage/images/swfupload.swf">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/multiimage/multiimage.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/pagebreak/pagebreak.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/plainpaste/plainpaste.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/preview/preview.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/quickformat/quickformat.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/table/table.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/template/html/1.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/template/html/2.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/template/html/3.html">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/template/template.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/plugins/wordpaste/wordpaste.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/common/anchor.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/common/blank.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/common/flash.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/common/loading.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/common/media.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/common/rm.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/default/background.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/default/default.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/default/default.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/qq/editor.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/qq/qq.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/kindeditor/themes/simple/simple.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="ApplicationInterface/Upload/UploadFile.ashx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bill/bill_action.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bill/bill_action_log.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/adminProject.dll">
+      <publishTime>08/22/2017 12:39:59</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/app.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <!--<File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/Castle.DynamicProxy.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/Castle.MicroKernel.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/Castle.Model.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/Castle.Windsor.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Component.dll">
+      <publishTime>08/22/2017 12:39:55</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.DataCrypt.dll">
+      <publishTime>08/22/2017 12:39:53</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Model.dll">
+      <publishTime>08/22/2017 12:39:54</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Service.dll">
+      <publishTime>08/22/2017 12:39:55</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Service.XmlSerializers.dll">
+      <publishTime>08/22/2017 12:39:57</publishTime>
+    </File>
+    <File Include="bin/cpos.Admin.SqlMaps.dll">
+      <publishTime>08/22/2017 12:39:53</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Task.exe">
+      <publishTime>08/21/2017 14:12:03</publishTime>
+    </File>
+    <File Include="bin/CPOS.BS.BLL.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/CPOS.BS.DataAccess.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/CPOS.BS.Entity.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/CPOS.Common.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/cPos.Model.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <!--<File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/IBatisNet.Common.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.Common.Logging.Log4Net.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.DataMapper.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <!--<File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/Jayrock.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/Jayrock.Json.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <!--<File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/LitJSON.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/MSSqlMap.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <!--<File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/providers.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <!--<File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/RedisOpenAPIClient.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <!--<File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/Sql2010SqlMap.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/ThoughtWorks.QRCode.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <!--<File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="bin/Utility.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/Utility.Message.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="bin/WebComponent.dll">
+      <publishTime>08/22/2017 12:39:53</publishTime>
+    </File>
+    <!--<File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>-->
+    <File Include="common/empty.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="common/homepage.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="common/Site.master">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="controls/DropDownTree.ascx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="controls/Pager.ascx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="csconfig/configAdd.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="csconfig/configList.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/basic.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/common.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/add.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/addStep.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/addStep_dsbl.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/btn-arrow.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Btn.Close.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Btn.Refresh.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/cal.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/checkbox_0.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/checkbox_1.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/checkbox_2.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/circle_animation.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/delete.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/delItem.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/delItem_dsbl.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/edit.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/folder_close.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico1.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico2.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico3.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico4-1-1.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico4-1.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico4-2.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico4-3.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico4-4.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico4.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico5.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico6-1.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico6-2.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/ico6.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/indicator.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/information.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Item.Add.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Item.Delete.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Item.Edit.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Item.Input.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Item.Save.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/Item.Search.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/none.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/note.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/rowdelete.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/s.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/table_refresh.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/icons/view.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/arrows.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/cbs.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/drop-yes.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-end-minus-nl.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-end-minus.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-end-plus-nl.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-end-plus.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-end.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-line.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-minus-nl.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-minus.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-plus-nl.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow-plus.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/elbow.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/folder-open.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/folder.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/leaf.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/images/tree/loading.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/pagination.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/style3.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/theme.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/tree.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/brand_customer_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/brand_customer_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/CustomerDataExchangeService.asmx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/customer_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/customer_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/customer_test.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/shop_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/shop_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/terminal_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/terminal_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/user_amount.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/user_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="customer/user_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="dex_test.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="images/ad.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/btn-login.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/checkbox-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/checkboxRight.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/cloud.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/footer-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-1.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-2.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-3.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-4.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/index-items-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/index-main-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/left-menu-li-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/left-menu-shadow.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/list-header-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/list-header-li-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/login-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/password-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/qrcode.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/sub-menu-item-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/sub-menu-til-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/username-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/approve.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/butt01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/create.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/delete.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/disable.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/document.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_b.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_bc.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_f.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_fh.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_fz.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_go.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_l.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_lb.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_ls.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_rb.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_rs.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_s.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_z.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/download.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dropdown.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/edit.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/enable.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/exchange.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/foot_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/history.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/image.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/img_lmt.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/img_mt.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/img_yz.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/lab_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/left_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/loginbut.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_m.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_t.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_tit.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_tita.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/modify.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/offline.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/online.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/pa_te.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/price.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/price2.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/property.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/publish.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/reject.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/reset_pwd.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/shop.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/sku.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/stop_publish.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/terminal.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/text_b.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/text_s.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/tit_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/tit_dr.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/tit_r.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/tree_dropdown_button.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/upload.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/user.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/view.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/y_bgt.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="InfoBoxPage.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="inout/pos_receipt_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="inout/pos_receipt_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/category_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/category_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/itemSearch.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_price.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_price_adjust_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_price_adjust_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_property.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="item/item_sku_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/csconfig/configAdd.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/csconfig/configList.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/csconfig/main.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/csconfig/tempModel.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/csconfig/util.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/DD_belatedPNG_0.0.8a-min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/ie6.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/jquery-1.4.2.min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/jquery-1.8.3.min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/lib/jquery-1.8.3.min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/lib/require.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/lib/tools-lib.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/plugin/artDialog/artDialog.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/plugin/artDialog/artDialog.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/plugin/jquery.jqpagination.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/plugin/kindeditor.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/plugin/template.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/plugin/touchslider.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/public.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="log/log_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="log/log_view.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/authcodeimage.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/checkBox.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/checkBox_on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/home_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/login_banner_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/login_box_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/logo_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/map01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/map02.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/password_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/server01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/server02.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/server03.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/server04.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/images/user_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/login.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login/styles/reset-pc.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Module/CreativityWarehouse/creativeActivity/creative.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/CreativityWarehouse/creativeActivity/css/queryList.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/CreativityWarehouse/creativeActivity/js/queryList.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/CreativityWarehouse/creativeActivity/queryList.aspx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/easyui.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/accordion_arrows.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/blank.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/calendar_arrows.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/combo_arrow.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/datagrid_icons.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/datebox_arrow.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/hintClose.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/layout_arrows.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/linkbutton_bg.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/loading.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/menu_arrows.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/messager_icons.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/moreIcon.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/pagination_icons.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/panel_tools.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/searchbox_button.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/slider_handle.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/spinner_arrows.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/tabs_icons.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/tou.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/tree_icons.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/images/validatebox_warning.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/css/kkpager.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/back_disabled.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/back_enabled.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/back_enabled_hover.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/favicon.ico">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/forward_disabled.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/forward_enabled.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/forward_enabled_hover.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/loading.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/sort_asc.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/sort_asc_disabled.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/sort_both.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/sort_desc.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/images/sort_desc_disabled.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/lib/easyui-lang-zh_CN.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/lib/jquery-1.8.3.min.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/lib/jquery.easyui.min.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/lib/MD5.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/lib/require.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/lib/tools-lib.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/main.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/bdTemplate.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/highcharts-3d.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/highcharts-3d.src.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/highcharts-more.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/highcharts-more.src.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/highcharts.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/highcharts.src.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/kindeditor.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/kkpager.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/template.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/static/js/plugin/touchslider.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/css/newYear/skin02.css">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/addstr.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/check.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/checkon.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/del.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/del11.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/down.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/Download.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/exit.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/hitClose.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon-tips.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_dzhh_dzhh.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_hyjk_dsj.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_hyjk_hyk.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_hyjk_zcd.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_jysj_jysj.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_qdcx_hy.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_qdcx_wbqd.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_qdcx_yg.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_sz_sz.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_wx_wx.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yd_dd.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yd_sc.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yd_sp.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_ygjl_ygjl.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yxlq_cyck.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yxlq_schd.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yxlq_yhqgl.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_yxlq_yxgj.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon/icon_zbxx_zbxx.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_add.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_download.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_duihao.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_export.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_import.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_playlist.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_save.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/icon_up.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/jiantou.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/loading.gif">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/logo.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/moreIcon.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/nodel.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/pagebtn.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/pagebtn1.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/pauseBtn.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/radio.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/radioOn.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/reset.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/runningBtn.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set-tip-bg.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/setBoxBot.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/settings.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/abacus.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/abacuson.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/fsxx.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/fsxxon.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/settings.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/unlock.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/unlockon.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/upload.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/uploadon.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/set_top/weixin.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Module/styles/images/newYear/stop.png">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="MSSqlMap.config">
+      <publishTime>08/22/2017 00:08:12</publishTime>
+    </File>
+    <File Include="Old_App_Code/ClassDiagram.cd">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="pos/main.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="pos/monitor_log_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="providers.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="readme.txt">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="right/menu_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="right/menu_SetRoleMenuCache.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="right/menu_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="right/menu_version_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Scripts/calendar.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/common.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/menu.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/jquery.tree.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="Scripts/region.js">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps.csproj.user">
+      <publishTime>08/21/2017 16:40:04</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/AppSys.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/City.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/Prop.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/PropertyUnit.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/Role.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/roleMenu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/AppSys/Type.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/base/dictionary.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/base/dictionary_detail.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/base/operate.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/bill/action.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/bill/action_log.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/bill/bill.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/bill/kind.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/bill/status.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/Banner.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/HomePageCommon.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/LEventDrawMethod.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/LEventInteraction.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/LEvents.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/LEventTemplate.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/LEventTheme.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/ObjectImages.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/PanicbuyingEvent.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/SeasonPlan.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/SpreadSetting.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/CreativityWarehouse/SysMarketingGroupType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/customer/connect.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/customer/customer.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/customer/menu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/customer/shop.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/customer/terminal.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/customer/user.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/Item.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/ItemCategory.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/ItemPrice.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/ItemPriceType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/ItemProp.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/Sku.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/SkuPrice.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Item/SkuProp.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Monitor/Monitor.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/AdOrder.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/CC.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/CCDetail.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/Inout.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/InoutDetail.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/InoutDetail_ap.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/Inout_ap.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/OrderReasonType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/order/OrderType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/right/app.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/right/menu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/right/role.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/right/role_menu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/StockBalance/StockBalance.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Unit/Unit.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Unit/UnitRelationMode.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/user/mobileuser.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/user/user.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/user/user_role.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMaps/Warehouse/Warehouse.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="user/modify_user_pwd.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="user/user_query.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="user/user_show.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/22/2017 12:40:00</publishTime>
+    </File>
+    <File Include="WebServices/BasicService.asmx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="WebServices/MenuService.asmx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="WebServices/OrderService.asmx">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

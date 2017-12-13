@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>E:\会员系统\6.Publish\SSO</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="authcodeimage.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="AuthService.asmx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/adminSSO.dll">
+      <publishTime>08/21/2017 23:44:57</publishTime>
+    </File>
+    <File Include="bin/adminSSO.dll.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>08/22/2017 00:01:21</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>08/22/2017 00:01:21</publishTime>
+    </File>
+    <File Include="bin/Castle.DynamicProxy.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/Castle.MicroKernel.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/Castle.Model.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/Castle.Windsor.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Component.dll">
+      <publishTime>08/21/2017 22:47:37</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.DataCrypt.dll">
+      <publishTime>08/21/2017 22:47:36</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.ExchangeModel.dll">
+      <publishTime>08/21/2017 17:13:11</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Model.dll">
+      <publishTime>08/21/2017 22:47:37</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Service.dll">
+      <publishTime>08/21/2017 22:47:38</publishTime>
+    </File>
+    <File Include="bin/cPos.Admin.Service.XmlSerializers.dll">
+      <publishTime>08/21/2017 17:13:12</publishTime>
+    </File>
+    <File Include="bin/cPos.Model.dll">
+      <publishTime>08/16/2017 19:04:01</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.Common.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.Common.Logging.Log4Net.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.DataMapper.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/Jayrock.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/Jayrock.Json.dll">
+      <publishTime>01/11/2017 20:48:25</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="css/base.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/basic.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/common.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="css/theme.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/ad.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/addressMap.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/bannerbg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/bannerbg_01.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/bg-login.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/btn-login.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/checkbox-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/checkBox.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/checkboxRight.gif">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/checkBox_on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/footer-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/footerbg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/help_icon.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/home_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-bi-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-check.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-checked.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-data-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-phone-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-picture-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-pos-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-small-on.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/icon-promos-small-out.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-1.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-2.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-3.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/img/index-img-4.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/index-items-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/index-main-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/left-menu-li-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/left-menu-shadow.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/list-header-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/list-header-li-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/login-bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/loginbg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/loginBox_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/login_banner_bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/login_bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/logo.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/map01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/map02.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/otoicn.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/password-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/password_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/px1.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/send.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/server01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/server02.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/server03.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/server04.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/skin.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/sub-menu-item-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/sub-menu-til-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/username-bg.jpg">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/user_icon.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/weixin.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="images/weixin01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/butt01.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_bc.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_f.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_fh.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_go.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_l.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_lb.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_ls.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_rb.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_rs.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_s.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/dot_z.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/foot_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/img_lmt.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/img_mt.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/img_yz.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/lab_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/left_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/loginbut.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_m.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_t.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_tit.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/logo_tita.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/pa_te.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/text_b.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/text_s.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/tit_bg.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="img/tit_r.png">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/DD_belatedPNG_0.0.8a-min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/ie6.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/jquery-1.4.2.min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/jquery1.6.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="js/public.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="keys/baih.key">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="keys/ssoself.key">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login - 副本.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login.html">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="login1.aspx">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="MSSqlMap.config">
+      <publishTime>08/21/2017 23:59:10</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/22/2017 00:01:19</publishTime>
+    </File>
+    <File Include="providers.config">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="readme.txt">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/AppSys.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/City.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/Prop.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/PropertyUnit.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/Role.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/roleMenu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/AppSys/Type.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/base/dictionary.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/base/dictionary_detail.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/base/operate.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/bill/action.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/bill/action_log.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/bill/bill.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/bill/kind.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/bill/status.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/connect.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/customer - 副本.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/customer.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/menu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/shop.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/terminal.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/customer/user.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/Item.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/ItemCategory.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/ItemPrice.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/ItemPriceType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/ItemProp.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/Sku.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/SkuPrice.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Item/SkuProp.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Monitor/Monitor.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/AdOrder.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/CC.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/CCDetail.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/Inout.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/InoutDetail.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/InoutDetail_ap.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/Inout_ap.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/OrderReasonType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/order/OrderType.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/right/app.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/right/menu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/right/role.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/right/role_menu.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/StockBalance/StockBalance.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Unit/Unit.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Unit/UnitRelationMode.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/user/mobileuser.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/user/user.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/user/usersales.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/user/user_role.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="SqlMapsForSSO/Warehouse/Warehouse.xml">
+      <publishTime>01/11/2017 20:48:26</publishTime>
+    </File>
+    <File Include="styles/reset-pc.css">
+      <publishTime>01/11/2017 20:48:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/21/2017 23:45:14</publishTime>
+    </File>
+    <Folder Include="../SqlMapsForSSO">
+      <publishTime>08/21/2017 15:56:22</publishTime>
+    </Folder>
+  </ItemGroup>
+</Project>

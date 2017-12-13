@@ -1,0 +1,15 @@
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\Model\bin\release\cPos.Admin.Model.dll
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\Model\bin\release\cPos.Admin.Model.pdb
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\Model\obj\Release\cPos.Admin.Model.dll
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\Model\obj\Release\cPos.Admin.Model.pdb
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\Model\bin\release\cPos.Admin.Model.dll
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\Model\bin\release\cPos.Admin.Model.pdb
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\Model\obj\Release\cPos.Admin.Model.dll
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\Model\obj\Release\cPos.Admin.Model.pdb
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\1.Member_System_CRM\CRM\AP_Admin\admin\Model\bin\release\cPos.Admin.Model.dll
+D:\1.Member_System_CRM\CRM\AP_Admin\admin\Model\bin\release\cPos.Admin.Model.pdb
+D:\1.Member_System_CRM\CRM\AP_Admin\admin\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\1.Member_System_CRM\CRM\AP_Admin\admin\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+D:\1.Member_System_CRM\CRM\AP_Admin\admin\Model\obj\Release\cPos.Admin.Model.dll
+D:\1.Member_System_CRM\CRM\AP_Admin\admin\Model\obj\Release\cPos.Admin.Model.pdb

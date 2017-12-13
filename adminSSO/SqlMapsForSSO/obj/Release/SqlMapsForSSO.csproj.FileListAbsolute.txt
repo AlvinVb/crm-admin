@@ -1,0 +1,8 @@
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\bin\Release\cpos.Admin.SqlMaps.dll
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\bin\Release\cpos.Admin.SqlMaps.pdb
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\obj\Release\cpos.Admin.SqlMaps.dll
+E:\会员系统\5.Develop\正念解压\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\obj\Release\cpos.Admin.SqlMaps.pdb
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\bin\Release\cpos.Admin.SqlMaps.dll
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\bin\Release\cpos.Admin.SqlMaps.pdb
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\obj\Release\cpos.Admin.SqlMaps.dll
+E:\会员系统\5.Develop\Net_2_AP_(SAAS管理后台)\admin\SqlMapsForSSO\obj\Release\cpos.Admin.SqlMaps.pdb
